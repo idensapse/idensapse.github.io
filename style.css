@@ -1,0 +1,43 @@
+.content {
+	font-family: Special Elite;
+	text-align: center;
+}
+
+.text {
+	max-width: 600px;
+	margin: auto;
+}
+.big {
+	margin-bottom: 19px;
+	line-height: 1.25em;
+	font-size: 38px;
+}
+@media (max-width: 420px) {
+	.big {
+		font-size: 32px;
+	}
+}
+
+.small {
+	font-size: 22px;
+	margin-bottom: 38px;
+	line-height: 1.25em;
+}
+@media (max-width: 420px) {
+	.small {
+		font-size: 20px;
+	}
+}
+
+.image-container {
+	max-width: 600px;
+	margin: auto;
+}
+img {
+	width: 100%;
+}
+.fin {
+	margin-bottom: 76px;
+	font-size: 18px;
+}
+
